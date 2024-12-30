@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Image Gallery</h1>
+    <div class="filter">
+      <button class="filter-btn" onclick="filterImages('nature')">Nature</button>
+      <button class="filter-btn" onclick="filterImages('animals')">Animals</button>
+      <button class="filter-btn" onclick="filterImages('cityscapes')">Cityscapes</button>
+      <button class="filter-btn" onclick="filterImages('all')">Show All</button>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-item nature">
+        <img src="nature_image1.jpeg" alt="Nature 1">
+        <p>Nature 1</p>
+      </div>
+      <div class="gallery-item animals">
+        <img src="animal_image1.jpeg" alt="Animals 1">
+        <p>Animals 1</p>
+      </div>
+      <div class="gallery-item cityscapes">
+        <img src="cityscape_image1.jpeg" alt="Cityscapes 1">
+        <p>Cityscapes 1</p>
+      </div>
+      <div class="gallery-item nature">
+        <img src="nature_image2.jpeg" alt="Nature 2">
+        <p>Nature 2</p>
+      </div>
+      <div class="gallery-item animals">
+        <img src="animal_image2.jpeg" alt="Animals 2">
+        <p>Animals 2</p>
+      </div>
+      <div class="gallery-item cityscapes">
+        <img src="cityscape_image2.jpeg" alt="Cityscapes 2">
+        <p>Cityscapes 2</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
